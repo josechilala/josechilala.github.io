@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env*
+!.env.example
+*.local
+.checks/
+Briefing_Codex_Portfolio_Jose_Chilala.docx
+Jose_Chilala_Curriculo_Atual.pdf
+.backups/
