@@ -131,9 +131,22 @@ export const experiences = [
 ]
 
 export const education: EducationItem[] = [
-  { level: 'Bacharelado', title: 'Sistemas de Informação', institution: 'UNASP Hortolândia', year: '2019' },
-  { level: 'Pós-graduação', title: 'Engenharia de Software', institution: 'Faculdade Metropolitana', year: '2022' },
-  { level: 'Pós-graduação', title: 'Arquitetura de Sistemas de Informação', institution: 'CENES-SP', year: '2023' },
+  {
+    level: 'Bacharelado',
+    title: 'Sistemas de Informação',
+    institution: 'UNASP Hortolândia',
+    year: '2019',
+    diplomaUrl: '/documents/education/graduacao-sistemas-informacao.pdf',
+    diplomaLabel: 'Ver diploma',
+  },
+  {
+    level: 'Pós-graduação',
+    title: 'Engenharia de Software',
+    institution: 'Faculdade Metropolitana',
+    year: '2022',
+    diplomaUrl: '/documents/education/pos-engenharia-software.pdf',
+    diplomaLabel: 'Ver diploma',
+  },
 ]
 
 export const certifications: Certification[] = [
