@@ -7,7 +7,7 @@ const whatsappMessage = encodeURIComponent(
 export const profile = {
   name: 'José Chilala Jacinto',
   github: 'https://github.com/josechilala',
-  linkedin: 'https://www.linkedin.com/in/jose-chilala-jacinto-7ab14b115',
+  linkedin: 'https://www.linkedin.com/in/jos%C3%A9-chilala-jacinto-7ab14b115',
   whatsapp: `https://wa.me/5519982968338?text=${whatsappMessage}`,
   location: 'Hortolândia, SP · Brasil',
   photo: '/images/profile/jose-chilala.webp.jpg',
