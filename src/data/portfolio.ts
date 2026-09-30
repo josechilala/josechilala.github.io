@@ -1,12 +1,17 @@
 import type { Certification, EducationItem, Project } from '../types/content'
 
+const whatsappMessage = encodeURIComponent(
+  'Olá José, encontrei seu portfólio e gostaria de conversar sobre uma oportunidade.',
+)
+
 export const profile = {
   name: 'José Chilala Jacinto',
   github: 'https://github.com/josechilala',
   linkedin: 'https://www.linkedin.com/in/jose-chilala-jacinto-7ab14b115',
+  whatsapp: `https://wa.me/5519982968338?text=${whatsappMessage}`,
   location: 'Hortolândia, SP · Brasil',
   photo: '/images/profile/jose-chilala.webp.jpg',
-  resumeUrl: '', // Ative somente após adicionar /documents/curriculo-jose-chilala.pdf em public.
+  resumeUrl: '/documents/curriculo-jose-chilala.pdf',
   email: 'josejacinto517@gmail.com',
   summary:
     'Mais de 6 anos em aplicações corporativas, conectando back-end .NET e interfaces React. Arquitetura de software, APIs e aprofundamento em IA aplicada.',
@@ -22,6 +27,7 @@ export const navigation = [
   { href: '#stack', label: 'Stack' },
   { href: '#experiencia', label: 'Experiência' },
   { href: '#projetos', label: 'Projetos' },
+  { href: '#formacao', label: 'Formação' },
 ]
 
 export const highlights = [
@@ -385,6 +391,31 @@ export const projects: Project[] = [
       'React / Vite',
     ],
     repository: 'https://github.com/josechilala/ActDigital.Account.Api',
-    images: [],
+    images: [
+      {
+        src: '/images/projects/actdigital/01-actdigital-movimentacoes.png',
+        alt: 'Tela da ActDigital Account com saldo de R$ 700,00 e movimentações de crédito e débito.',
+        caption: 'Movimentações da conta — crédito, débito, saldo e histórico.',
+        order: 1,
+        width: 1176,
+        height: 621,
+      },
+      {
+        src: '/images/projects/actdigital/02-actdigital-swagger-api.png',
+        alt: 'Documentação Swagger/OpenAPI da ActDigital.Account.Api exibindo os endpoints de saldo e movimentações.',
+        caption: 'API REST documentada com Swagger/OpenAPI.',
+        order: 2,
+        width: 1330,
+        height: 624,
+      },
+      {
+        src: '/images/projects/actdigital/03-actdigital-conta-inicial.png',
+        alt: 'Tela inicial da ActDigital Account com saldo de R$ 0,00 e nenhuma movimentação.',
+        caption: 'Estado inicial da conta antes das movimentações.',
+        order: 3,
+        width: 1109,
+        height: 505,
+      },
+    ],
   },
 ]

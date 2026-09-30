@@ -1,7 +1,6 @@
 import { useRef, useState } from 'react'
 import { navigation } from '../data/portfolio'
 import { Arrow } from './Arrow'
-import { ThemeToggle } from './ThemeToggle'
 
 export function Header() {
   const [open, setOpen] = useState(false)
@@ -22,7 +21,6 @@ export function Header() {
         >
           jc<span>.</span>
         </a>
-        <ThemeToggle />
         <button
           ref={menuButton}
           type="button"

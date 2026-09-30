@@ -37,7 +37,7 @@ export function Hero() {
           <ExternalLink href={profile.linkedin} className="text-link">
             LinkedIn
           </ExternalLink>
-          <ResumeLink className="text-link" />
+          <ResumeLink className="text-link" label="Ver currículo" />
         </div>
       </div>
       <div className="hero-aside">

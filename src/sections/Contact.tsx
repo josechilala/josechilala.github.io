@@ -29,6 +29,10 @@ export function Contact() {
           <ExternalLink href={profile.github}>
             Explore meu código <span className="contact-platform">GitHub</span>
           </ExternalLink>
+          <ExternalLink href={profile.whatsapp}>
+            Fale comigo pelo WhatsApp
+            <span className="contact-platform">WhatsApp</span>
+          </ExternalLink>
           {profile.email && (
             <a href={`mailto:${profile.email}`}>
               {profile.email}
